@@ -44,12 +44,12 @@ def test_two_lucas():
 
 def test_two_sum_series():
         actual = sum_series(2,0,1)
-        expected = 13
+        expected = 1
         assert actual == expected 
 
 def test_three_sum_series():
-        actual = sum_series(3,2,1)
-        expected = 13
+        actual = sum_series(8,2,1)
+        expected = 29
         assert actual == expected  
 
 
